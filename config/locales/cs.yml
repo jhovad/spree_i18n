@@ -497,11 +497,14 @@ cs:
     card_type_is: Typ karty je
     cart: Košík
     cart_subtotal:
+      one: 'Mezisoučet (1 položka)'
+      few: 'Mezisoučet (%{count} položky)'
+      other: 'Mezisoučet (%{count} položek)'
     categories: Kategorie
     category: Kategorie
     charged: Účtováno
     check_for_spree_alerts: Zkontrolovat Spree upozornění
-    checkout: K pokladně
+    checkout: "K pokladně"
     choose_a_customer: Vyberte zákazníka
     choose_a_taxon_to_sort_products_for:
     choose_currency: Vyberte měnu
@@ -601,7 +604,7 @@ cs:
     default_tax_zone: Výchozí daňová zóna
     delete: Vymazat
     deleted_variants_present: Některé položky objednávky obsahují produkty, které již nejsou dostupné.
-    delivery: Dodávka
+    delivery: Doprava
     depth: Hloubka
     description: Popis
     destination: Cíl
@@ -873,7 +876,7 @@ cs:
     or: nebo
     or_over_price: "%{price} nebo více"
     order: Objednávka
-    order_adjustments: Order adjustments
+    order_adjustments: Objednávka zahrnuje
     order_already_updated: Objednávka již byla změněna
     order_approved: Objednávka schválena
     order_canceled: Objednávka zrušena
@@ -900,15 +903,15 @@ cs:
     order_number: Objednávka %{number}
     order_processed_successfully: Vaše objednávka byla úspěšně zpracována
     order_resumed: Objednávka obnovena
-    order_state:
+    order_states:
       address: Adresa
       awaiting_return: "Čeká na návrat"
       canceled: Zrušeno
       cart: Košik
       complete: Dokončení
-      confirm: Potvrzení
+      confirm: Shrnutí
       considered_risky: Riziková
-      delivery: Možnosti dodání
+      delivery: Doprava
       payment: Platba
       resumed: Obnovená
       returned: Vracená
@@ -920,7 +923,7 @@ cs:
     other_items_in_other: Ostatní položky objednávky
     out_of_stock: Není skladem
     overview: Přehled
-    package_from: 'umístění:'
+    package_from: 'Umístění:'
     pagination:
       next_page: další strana »
       previous_page: "« předchozí strana"
@@ -1149,7 +1152,7 @@ cs:
     ship_total: Doprava celkem
     shipment: Doprava
     shipment_adjustments: Úprava dopravy
-    shipment_details: Informace k dopravě
+    shipment_details: "Objednávka bude odeslána ze skladu: %{stock_location} prostřednictvím společnosti %{shipping_method}"
     shipment_mailer:
       shipped_email:
         dear_customer: Vážený zákazníku,\n
@@ -1169,7 +1172,7 @@ cs:
       shipped: Dodáno
     shipment_transfer_error: Chyba převodu variant.
     shipment_transfer_success: Varianty převedeny.
-    shipments: Dopravy
+    shipments: Doprava
     shipped: Dodáno
     shipping: Dodání
     shipping_address: Dodací adresa
