@@ -45,7 +45,7 @@ cs:
         considered_risky: Rizikovost
         coupon_code: Kód kupónu
         created_at: Datum objednávky
-        email: Email zákazníka
+        email: Váš e-mail
         ip_address: IP Adresa
         item_total: Položky celkem
         number: "Číslo"
@@ -137,7 +137,7 @@ cs:
       spree/taxonomy:
         name: Název
       spree/user:
-        email: Email
+        email: E-mail
         password: Heslo
         password_confirmation: Potvrzení hesla
       spree/variant:
@@ -306,10 +306,10 @@ cs:
   devise:
     confirmations:
       confirmed: Váš účet byl úspěšně potvrzen. Nyní jste přihlášen(a).
-      send_instructions: Za několik minut obdržíte email s instrukcemi k potvrzení vašeho účtu.
+      send_instructions: Za několik minut obdržíte e-mail s instrukcemi k potvrzení vašeho účtu.
     failure:
       inactive: Váš účet ještě nebyl aktivován.
-      invalid: Neplatný email nebo heslo.
+      invalid: Neplatný e-mail nebo heslo.
       invalid_token: Neplatný ověřovací symbol.
       locked: Váš účet je uzamčen.
       timeout: Vaše relace vypršela, přihlaste se prosím znovu, pak můžete pokračovat.
@@ -326,12 +326,12 @@ cs:
       failure: 'Není možné autorizovat z %{kind}, protože: %{reason}.'
       success: "Úspěšná autorizace z účtu %{kind}."
     unlocks:
-      send_instructions: Za několik minut obdržíte email s instrukcemi, jak odemknout svůj účet.
+      send_instructions: Za několik minut obdržíte e-mail s instrukcemi, jak odemknout svůj účet.
       unlocked: Váš účet byl úspěšně odemknut. Nyní jste přihlášen(a).
     user_passwords:
       user:
         cannot_be_blank: Heslo nemůže být prázdné.
-        send_instructions: Za několik minut obdržíte email s instrukcemi k nastavení nového hesla.
+        send_instructions: Za několik minut obdržíte e-mail s instrukcemi k nastavení nového hesla.
         updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen(a).
     user_registrations:
       destroyed: Na shledanou! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
@@ -631,13 +631,13 @@ cs:
         missing_taxon: Pro použití kupónu vám chybí některé povinné kategorie.
         no_applicable_products: Pro použití tohoto kupónu vám chybí konkrétní vyžadovaný produkt.
         no_matching_taxons: Pro použití tohoto kupónu vám chyba produkt z konkrétní vyžadované kategorie.
-        no_user_or_email_specified: Musíte poskytnout svůj email pro použití tohoto kupónu.
+        no_user_or_email_specified: Musíte poskytnout svůj e-mail pro použití tohoto kupónu.
         no_user_specified: Musíte se zaregistrovat nebo přihlásit pro použití tohoto kupónu.
         not_first_order: Tento kupón může být použit pouze pro první objednávku.
-    email: Email
+    email: E-mail
     empty: Prázdné
     empty_cart: Vyprázdnit košík
-    enable_mail_delivery: Povolit doručování emailů
+    enable_mail_delivery: Povolit doručování e-mailů
     end: Konec
     ending_in: Končí na
     environment: Prostředí
@@ -721,11 +721,11 @@ cs:
     incomplete: Neúplné
     info_number_of_skus_not_shown: a další
     info_product_has_multiple_skus: Tento produkt má %{count} variant
-    instructions_to_reset_password: Zadejte prosím svůj email do formuláře níže
+    instructions_to_reset_password: Zadejte prosím svůj e-mail do formuláře níže
     insufficient_stock: Nedostatečné skladové zásoby, zbývá pouze %{on_hand}
     insufficient_stock_lines_present: Některé položky nejsou na skladě v dostatečném množství.
-    intercept_email_address: Odchytávání emailů
-    intercept_email_instructions: Anulovat email příjemce a nahradit s touto adresou
+    intercept_email_address: Odchytávání e-mailů
+    intercept_email_instructions: Anulovat e-mail příjemce a nahradit s touto adresou
     internal_name: Interní jméno
     invalid_credit_card: Neplatná platební karta
     invalid_exchange_variant: Neplatná varianta pro výměnu
@@ -1090,7 +1090,7 @@ cs:
     reject: Zamítnout
     rejected: Zamítnuto
     remember_me: Zapamatovat si mě
-    remove: Vyjmout
+    remove: Odebrat
     rename: Přejmenovat
     report: Report
     reports: Reporty
@@ -1142,8 +1142,8 @@ cs:
     select_a_stock_location: Vyberte sklad
     select_from_prototype: Výběr ze šablon
     select_stock: Vyberte zásoby ze skladu
-    send_copy_of_all_mails_to: Zasílat kopie všech emailů na emailovou adresu
-    send_mails_as: Posílat emaily jako
+    send_copy_of_all_mails_to: Zasílat kopie všech e-mailů na e-mailovou adresu
+    send_mails_as: Posílat e-maily jako
     server: Server
     server_error: Server nahlásil chybu
     settings: Nastavení
@@ -1291,8 +1291,8 @@ cs:
     test_mailer:
       test_email:
         greeting: Gratulujeme!
-        message: Pokud jste obdrželi tento email, Vaše nastavení emailu je správné.
-        subject: Testovací email
+        message: Pokud jste obdrželi tento e-mail, Vaše nastavení e-mailu je správné.
+        subject: Testovací e-mail
     test_mode: Testovací režim
     thank_you_for_your_order: Děkujeme za Váš nákup. Doporučujeme Vám vytisknout si kopii této stránky.
     there_are_no_items_for_this_order: Objednávka neobsahuje žádné položky.
