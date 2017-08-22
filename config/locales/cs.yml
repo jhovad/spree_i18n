@@ -935,7 +935,7 @@ cs:
     payment: Platba
     payment_could_not_be_created: Platba nemůže být vytvořena.
     payment_identifier: Identifikátor platby
-    payment_information: Informace k platbě
+    payment_information: Volba platby
     payment_method: Způsob platby
     payment_method_not_supported: Nepodporovaný způsob platby. Prosím, vyberte si jiný.
     payment_methods: Způsoby platby
@@ -1219,7 +1219,7 @@ cs:
       closed: Uzavřeno
       complete: Kompletní
       completed: Dokončeno
-      confirm: Potvrdit
+      confirm: Potvrzení
       delivery: Dodání
       errored: Chyba
       failed: Selhalo
@@ -1255,7 +1255,7 @@ cs:
     stock_transfers: Převody skladových zásob
     stop: Konec
     store: Obchod
-    street_address: Ulice
+    street_address: Ulice a číslo domu
     street_address_2: "Číslo ulice"
     subtotal: Mezisoučet
     subtract: Odečet
