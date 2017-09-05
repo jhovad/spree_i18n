@@ -899,6 +899,8 @@ cs:
         subtotal: ! 'Mezisoučet:'
         thanks: Děkujeme za Váš nákup.
         total: ! 'Celkem:'
+      subtotal: ! 'Mezisoučet:'
+      total: ! 'Celkem:'
     order_not_found: Nemůžeme nalézt Vaši objednávku. Zkuste prosím akci provést později.
     order_number: Objednávka %{number}
     order_processed_successfully: Vaše objednávka byla úspěšně zpracována
