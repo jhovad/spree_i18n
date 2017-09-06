@@ -335,7 +335,7 @@ cs:
         updated: Vaše heslo bylo úspěšně změněno. Nyní jste přihlášen(a).
     user_registrations:
       destroyed: Na shledanou! Váš účet byl úspěšně zrušen. Doufáme, že se brzy opět uvidíme.
-      inactive_signed_up: Registrace byla úspěšná. Nicméně se nemůžete přihlásit, protože Váš účet je %{reason}.
+      inactive_signed_up: Registrace byla úspěšná. Nicméně se nemůžete přihlásit, protože váš účet je %{reason}.
       signed_up: Vítejte! Registrace byla úspěšná.
       updated: Váš účet byl úspěšně aktualizován.
     user_sessions:
@@ -897,7 +897,7 @@ cs:
         order_summary: Přehled objednávek
         subject: Potvrzení objednávky
         subtotal: ! 'Mezisoučet:'
-        thanks: Děkujeme za Váš nákup.
+        thanks: Děkujeme za váš nákup.
         total: ! 'Celkem:'
       subtotal: ! 'Mezisoučet:'
       total: ! 'Celkem:'
@@ -1257,7 +1257,7 @@ cs:
     stock_transfers: Převody skladových zásob
     stop: Konec
     store: Obchod
-    street_address: Ulice a číslo domu
+    street_address: Ulice a číslo popisné
     street_address_2: "Číslo ulice"
     subtotal: Mezisoučet
     subtract: Odečet
@@ -1333,7 +1333,7 @@ cs:
     updating: Ukládám změny
     usage_limit: Limit pro použití
     use_app_default: Použít výchozí
-    use_billing_address: Použít fakturační adresu
+    use_billing_address: Stejná jako fakturační adresa
     use_new_cc: Použít novou kartu
     use_s3: Použít Amazon S3 pro ukládání obrázků
     user: Uživatel
